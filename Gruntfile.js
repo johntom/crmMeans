@@ -64,19 +64,13 @@ module.exports = function (grunt) {
     'linker/js/routingConfig.js',
 
      // *->    put other dependencies here angular-1.2.0-rc.2  <-*
-    'js/lib/angular/angular-1.2.0-rc.2/angular.js',
-    'js/lib/angular/angular-1.2.0-rc.2/angular-route.js',
-    'js/lib/angular/angular-1.2.0-rc.2/angular-resource.js',
-    'js/lib/angular/angular-1.2.0-rc.2/angular-cookies.js',
+    'js/bower_components/angular/angular.js',
+    'js/bower_components/angular-route/angular-route.js',
+    'js/bower_components/angular-resource/angular-resource.js',
+    'js/bower_components/angular-cookies/angular-cookies.js',
+    'js/bower_components/angular-animate/angular-animate.js',
+    'js/bower_components/angular-xeditable/dist/js/xeditable.js',
 
-    'js/lib/angular/angular-1.2.0-rc.2/angular-animate.js',
-    'js/lib/angular-xeditable/dist/js/xeditable.js',
-
-//
-//    'js/lib/angular/angular-1.0.8/angular.js',
-//    'js/lib/angular/angular-1.0.8/angular-route.js',
-//    'js/lib/angular/angular-1.0.8/angular-resource.js',
-//    'js/lib/angular/angular-1.0.8/angular-cookies.js',
 
     'js/lib/angular-bootstrap/ui-bootstrap-tpls.js',
     'js/lib/angular/angular-table.js',

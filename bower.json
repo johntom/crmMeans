@@ -1,6 +1,16 @@
 {
-  "name": "crm-MEANS",
+  "name": "crmMEANS",
   "version": "0.0.0",
+    "dependencies": {
+        "json3": "~3.2.5",
+        "es5-shim": "~2.1.0",
+        "angular": "~1.2.6",
+        "angular-route": "~1.2.6",
+        "angular-resource": "~1.2.6",
+        "angular-cookies": "~1.2.6",
+        "angular-animate": "~1.2.6",
+        "angular-ui-map": "~0.0.2"
+    },
   "ignore": [
     "**/.*",
     "node_modules",
