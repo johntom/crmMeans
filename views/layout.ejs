@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%- title %></title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+    <!--  
+        Stylesheets and Preprocessors
+        ==============================
+
+        You can always bring in CSS files manually with `link` tags, or asynchronously
+        on the client using a solution like AMD (RequireJS).  Or, if you like, you can
+        take advantage of Sails' boilerplate asset management.
+
+        By default, stylesheets from your `assets/linker/styles` folder are included
+        here automatically.  Both CSS (.css) and LESS (.less) are supported.
+        In production, your styles will be minified and concatenated into a single file.
+        
+        To customize any part of the built-in behavior, just edit your Gruntfile.
+        For example, here are a few things you could do:
+            
+            + Change the order of your CSS files
+            + Import stylesheets from other directories
+            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+    -->
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/linker/styles/angular-table.css">
+    <link rel="stylesheet" href="/linker/styles/angular-ui.css">
+    <link rel="stylesheet" href="/linker/styles/animations.css">
+    <link rel="stylesheet" href="/linker/styles/app.css">
+    <link rel="stylesheet" href="/linker/styles/bootstrap-combined.min.css">
+    <link rel="stylesheet" href="/linker/styles/custom.css">
+    <link rel="stylesheet" href="/linker/styles/demo.css">
+    <link rel="stylesheet" href="/linker/styles/ng-grid-2.0.0.7.min.css">
+    <link rel="stylesheet" href="/linker/styles/styles.css">
+    <link rel="stylesheet" href="/linker/styles/xeditable.css">
+    <!--STYLES END-->
+  </head>
+
+  <body>
+    <%- body %>
+
+
+
+    <!--
+        Client-side Templates
+        ========================
+
+    		HTML templates are important prerequisites of modern, rich client applications.
+        To work their magic, frameworks like Backbone, Angular, Ember, and Knockout require
+        that you load these templates client-side.
+
+        By default, your Gruntfile is configured to automatically load and precompile
+        client-side JST templates in your `assets/linker/templates` folder, then
+        include them here automatically.
+        
+        To customize this behavior to fit your needs, just edit your Gruntfile.
+        For example, here are a few things you could do:
+
+            + Import templates from other directories
+            + Use a different template engine (handlebars, jade, dust, etc.)
+            + Internationalize your templates using a server-side stringfile
+              before they're served.
+    -->
+
+    <!--TEMPLATES-->
+    
+    <!--TEMPLATES END-->
+
+
+    <!--
+
+      Client-side Javascript
+      ========================
+
+      You can always bring in JS files manually with `script` tags, or asynchronously
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can 
+      take advantage of Sails' boilerplate asset management.
+
+      By default, filesin your `assets/linker/js` folder are included here
+      automatically.  Both JavaScript (.js) and CoffeeScript (.coffee) are supported.
+      In production, your scripts will be minified and concatenated into a single file.
+      
+      To customize any part of the built-in behavior, just edit your Gruntfile.
+      For example, here are a few things you could do:
+          
+          + Change the order of your scripts
+          + Import scripts from other directories
+          + Use a different preprocessor, like TypeScript
+
+    -->
+
+    <!--SCRIPTS-->
+    <script src="/linker/js/socket.io.js"></script>
+    <script src="/linker/js/sails.io.js"></script>
+    <script src="/linker/js/routingConfig.js"></script>
+    <script src="/js/lib/angular/angular-1.2.0-rc.2/angular.js"></script>
+    <script src="/js/lib/angular/angular-1.2.0-rc.2/angular-route.js"></script>
+    <script src="/js/lib/angular/angular-1.2.0-rc.2/angular-resource.js"></script>
+    <script src="/js/lib/angular/angular-1.2.0-rc.2/angular-cookies.js"></script>
+    <script src="/js/lib/angular/angular-1.2.0-rc.2/angular-animate.js"></script>
+    <script src="/js/lib/angular-xeditable/dist/js/xeditable.js"></script>
+    <script src="/js/lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="/js/lib/angular/angular-table.js"></script>
+    <script src="/js/lib/angular/ng-grid-2.0.7.min.js"></script>
+    <script src="/js/lib/angular/ng-grid-layout-plugin.js"></script>
+    <script src="/js/lib/underscore.js"></script>
+    <script src="/js/lib/angular/angular-ui.js"></script>
+    <script src="/js/lib/angular/ng-grid-csv-export.js"></script>
+    <script src="/js/lib/angular/ui-multicombo.js"></script>
+    <script src="/js/lib/transition.js"></script>
+    <script src="/js/lib/jsapi.js"></script>
+    <script src="/js/lib/debounce.js"></script>
+    <script src="/js/lib/highcharts.js"></script>
+    <script src="/js/lib/highcharts-more.js"></script>
+    <script src="/js/lib/exporting.js"></script>
+    <script src="/js/lib/moment.js"></script>
+    <script src="/js/lib/tweenMax.min.js"></script>
+    <script src="/js/lib/angular-socket-io/socket.js"></script>
+    <script src="/linker/js/app/animations/listAnimations.js"></script>
+    <script src="/linker/js/app/app.js"></script>
+    <script src="/linker/js/app/controllers/DailyCtrl.js"></script>
+    <script src="/linker/js/app/controllers/EventCtrl.js"></script>
+    <script src="/linker/js/app/controllers/FoodCtrl.js"></script>
+    <script src="/linker/js/app/controllers/HomeCtrl.js"></script>
+    <script src="/linker/js/app/controllers/LoginCtrl.js"></script>
+    <script src="/linker/js/app/controllers/UserCtrl.js"></script>
+    <script src="/linker/js/app/controllers/VendorCtrl.js"></script>
+    <script src="/linker/js/app/directives/busyButton.js"></script>
+    <script src="/linker/js/app/directives/directives.js"></script>
+    <script src="/linker/js/app/filters/filters.js"></script>
+    <script src="/linker/js/app/resources/DailyResource.js"></script>
+    <script src="/linker/js/app/resources/EmailResource.js"></script>
+    <script src="/linker/js/app/resources/EventResource.js"></script>
+    <script src="/linker/js/app/resources/UserResource.js"></script>
+    <script src="/linker/js/app/resources/VendorResource.js"></script>
+    <script src="/linker/js/app/services/services.js"></script>
+    <script src="/linker/js/app/services/servicesEvent.js"></script>
+    <script src="/linker/js/app/services/servicesUser.js"></script>
+    <!--SCRIPTS END-->
+  </body>
+</html>
