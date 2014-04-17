@@ -8,7 +8,7 @@
     "grunt": "0.4.1",
     "sails-disk": "~0.9.0",
     "optimist": "0.3.4",
-    "jade": "*",
+    "jade": "0.35.0",
     "sails-mongo": "~0.9.6",
     "passport": "*",
     "passport-local": "*",
