@@ -4,6 +4,10 @@ MEANS
 Mongo+Express+Angular+Node+Sails
 crm wedding planner example
 
+4/17/2014 Fixed jade to ref 0.35 as breaking changes in latest jade lib.
+
+See https://github.com/johntom/sailng for a small 0.10 sails example
+
 ===============
 # Demo Site
 #### http://sample4.gtz.com:8001/
