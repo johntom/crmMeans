@@ -46,8 +46,8 @@ Additional repos and references
 If you don't already have Node.js on your machine install it from http://nodejs.org. You'll also need to install MongoDB from http://www.mongodb.org if you don't have it already and get it configured and running using the instructions on their site.
 
 In the crm-MEANS directory execute 'npm install' which will all dependencies (package.json).
-Note: This project uses Passport and Bcrpt for Authentication and encryption.
-Bcrprt require Python 2.X and can be rather diffiult to install. Please follow the following wwebsites
+Note: This project uses Passport and BCRYPT for Authentication and encryption.
+Bcrprt require Python 2.X and can be rather diffiult to install. Please follow the following websites
 
 https://npmjs.org/package/bcrypt
 Follow dependencies section carefully
